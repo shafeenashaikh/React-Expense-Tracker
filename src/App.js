@@ -2,6 +2,8 @@ import './App.css';
 import Balance from './Components/Balance';
 import Header from './Components/Header';
 import IncomeExpenses from './Components/IncomeExpenses';
+import TransactionList from './Components/TransactionList';
+
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <div className="container">
         <Balance/>
         <IncomeExpenses/>
+        <TransactionList/>
+      
       </div>
     </div>
   );
