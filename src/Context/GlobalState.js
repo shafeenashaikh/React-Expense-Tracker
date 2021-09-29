@@ -15,12 +15,12 @@ const initialState = {
      const [state, dispatch] = useReducer(AppReducer, initialState);
 
      //Actions
-     function deleteTransaction(id){
-         dispatch({
-             type: 'DELETE_TRANSACTION',
-             payload: id
-         })
-     }
+    function deleteTransaction(id) {
+        dispatch({
+            type: 'DELETE_TRANSACTION',
+            payload: id
+        })
+    }
 
      return (<GlobalContext.Provider value={{
          transaction: state.transaction,
